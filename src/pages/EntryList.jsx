@@ -1,0 +1,3 @@
+import { useState } from 'react';
+import { Detail, SimpleAdd } from '../components/PageUI.jsx';
+export default function EntryList({ title, eyebrow, description, items, add, remove, placeholder }) { const [text, setText] = useState(''); return <Detail eyebrow={eyebrow} title={title} description={description}><section className="detail-card"><SimpleAdd value={text} setValue={setText} placeholder={placeholder} onAdd={() => { if (text.trim()) { add(text.trim()); setText(''); } }}/><div className="entries">{items.map((item) => <div className="entry" key={item.id}>{item.text}<button className="text-button" onClick={() => remove(item.id)}>Remove</button></div>)}</div></section></Detail>; }

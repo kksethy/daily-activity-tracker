@@ -1,0 +1,2 @@
+import { Detail } from '../components/PageUI.jsx';
+export default function Journal({ day, setDay }) { return <Detail eyebrow="DAILY NOTES" title="Journal" description="A private space for your technical notes, personal notes, and loose reflections."><section className="detail-card journal"><textarea value={day.notes} onChange={(event) => setDay((current) => ({ ...current, notes: event.target.value }))} placeholder="Write without editing yourself..."/><p>Autosaved in today’s local JSON file.</p></section></Detail>; }

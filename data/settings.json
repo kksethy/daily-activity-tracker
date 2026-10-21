@@ -1,0 +1,352 @@
+{
+  "goals": [
+    {
+      "id": "g1",
+      "name": "Learn React",
+      "current": 1,
+      "target": 12,
+      "unit": "modules",
+      "color": "blue"
+    },
+    {
+      "id": "g2",
+      "name": "Watch great films",
+      "current": 4,
+      "target": 20,
+      "unit": "movies",
+      "color": "orange"
+    }
+  ],
+  "habits": [
+    {
+      "id": "f3a034c1-f9e5-4d2b-bf61-05ad58543775",
+      "name": "Meditation"
+    },
+    {
+      "id": "9ac7d89f-6116-493f-b458-201c3cf2b243",
+      "name": "Breathing"
+    },
+    {
+      "id": "6b02af47-fcc1-4578-b8eb-12e62044d3d5",
+      "name": "Drink 3 litres water"
+    },
+    {
+      "id": "863263a4-87d5-437c-86b1-593b86ea2630",
+      "name": "walk atleast 5000 steps"
+    },
+    {
+      "id": "257e9eb9-9775-4924-8de7-208a80b3780a",
+      "name": "Streching"
+    },
+    {
+      "id": "94ced181-e042-4b66-b517-d8ea6bd6943d",
+      "name": "15 pushups 15 situps 1 min plank 15 abs"
+    },
+    {
+      "id": "9c2d0166-19e9-4e40-9437-c9d0a1fa5ee4",
+      "name": "Home organizing"
+    },
+    {
+      "id": "98b77373-2301-457f-9ea4-7ba3c2a85678",
+      "name": "Sun bathing"
+    }
+  ],
+  "skills": [
+    {
+      "id": "s1",
+      "name": "Python",
+      "category": "Language",
+      "progress": 55
+    },
+    {
+      "id": "s2",
+      "name": "JavaScript",
+      "category": "Language",
+      "progress": 40
+    },
+    {
+      "id": "s3",
+      "name": "TypeScript",
+      "category": "Language",
+      "progress": 20
+    },
+    {
+      "id": "s4",
+      "name": "React",
+      "category": "Framework",
+      "progress": 30
+    }
+  ],
+  "topics": [
+    {
+      "id": "80b0532c-3ed0-4855-9aff-5d16e72f3b78",
+      "title": "Stride -- Deployement",
+      "category": "Tech",
+      "notes": "3Sep\n-- I was not able to see the logs of deployement so i raised a oim entitlement OAL-ATG-READONLY. After the approval it worked\n-- While deploying i faced several challenges \nRaman created a Git Repo OALTerritoryQuantAIOjetUI.git for UI\nOALTerritoryQuantAIWS.git for Webservice\nunder UI repo I created an Integration branch\nI imported that branch to my local machine under \nDocument --> patching-->apex--OALTerritoryQuantAIOjetUI\nThen i downloaded Terra repo used it to put the both the folder in codex asked it push similar setup to the new repo based on Integration.\nthen i started facing deployment issues\ncheck this thread in codex desktop \"Create React activity tracker\"\nRaman gave another \"log from cloud\" to check errors in the deployment\nit shows all kubernatics/Docker related issues\nI passed below\nContainer = 'oal-quant-ai-ui' and Namespace = 'terr-at' | timestats count as logrecords by 'Log Source' | sort -logrecords\nand pressed Run it showed my the errors\nit has kubernatics container status logs/ kubernatics container generic logs/ in the graph you can select 1 of them and see the filter gets change you can also restict the period for which it shows the output.\nafter few tries finally it worked deployment gets successful.",
+      "links": [
+        {
+          "url": "https://cricipapic-oalprod.integration.ocp.oraclecloud.com/ic/builder/rt/stride_prod/live/webApps/cicd/?page=shell&shell=applications",
+          "label": "Stride Home"
+        },
+        {
+          "url": "https://oalcrm2at.oracle.com/oalcrm/web/terr/quantai/",
+          "label": "QuantAI"
+        },
+        {
+          "url": "https://cloud.oracle.com/loganalytics/explorer?jobId=3d23166d-47d2-1642-2107-6a376b2c0c0b&region=us-ashburn-1",
+          "label": "logs from cloud"
+        }
+      ]
+    },
+    {
+      "id": "4687ca36-0c45-4c31-9bd6-107b32903a50",
+      "title": "ChatGpt, Codex usage",
+      "category": "Tech",
+      "notes": "Codex / gpt usage should be below $315 per month\ncheck this email from Andrew/Jochen\nattached Url shows the usage",
+      "links": [
+        {
+          "url": "Using Enterprise AI effectively and cost-consciously",
+          "label": "Usage Link GCGA"
+        }
+      ]
+    },
+    {
+      "id": "2c7563ae-44f8-403e-b89e-da3a38e3b4a9",
+      "title": "",
+      "category": "Tech",
+      "notes": "",
+      "links": []
+    }
+  ],
+  "taskCategories": [],
+  "recurringTasks": [
+    {
+      "id": "e94baa37-3de7-4f2a-9473-51e9a71a1699",
+      "done": false,
+      "status": "pending",
+      "timerSeconds": 0,
+      "achievedMinutes": 0,
+      "text": "Python practice",
+      "category": "Learning",
+      "recurrence": "daily",
+      "learningGoalMinutes": 60,
+      "startDate": "2026-09-24",
+      "templateId": "ae2bddef-cfd7-4fbe-998f-f3ac6abf13f6"
+    },
+    {
+      "id": "3e8d9820-0848-4408-bf1f-8c71d2239fc4",
+      "done": false,
+      "status": "pending",
+      "timerSeconds": 0,
+      "achievedMinutes": 0,
+      "text": "Oracle EBS",
+      "category": "Learning",
+      "recurrence": "daily",
+      "learningGoalMinutes": 60,
+      "startDate": "2026-09-24",
+      "templateId": "6240a1b6-846e-4983-8ce5-b8d160c8ded1"
+    },
+    {
+      "id": "d830ffbc-1d5c-45f4-9613-3d39790bcf50",
+      "done": false,
+      "status": "pending",
+      "timerSeconds": 0,
+      "achievedMinutes": 0,
+      "text": "Web development course through JS",
+      "category": "Learning",
+      "recurrence": "daily",
+      "learningGoalMinutes": 90,
+      "startDate": "2026-10-20",
+      "templateId": "c8df12a4-e0c4-4c7b-bcad-97624bb7c5ee"
+    },
+    {
+      "id": "42102468-aa9c-4b04-aa24-8b0f6b77c44c",
+      "done": false,
+      "status": "pending",
+      "timerSeconds": 0,
+      "achievedMinutes": 0,
+      "text": "Java",
+      "category": "Learning",
+      "recurrence": "daily",
+      "learningGoalMinutes": 60,
+      "startDate": "2026-10-20",
+      "templateId": "1a8d58da-026d-42d7-99e0-a43adf370975"
+    },
+    {
+      "id": "7b584544-d234-4a17-aa1c-375bc99b7a29",
+      "done": false,
+      "status": "pending",
+      "timerSeconds": 0,
+      "achievedMinutes": 0,
+      "text": "AI",
+      "category": "Learning",
+      "recurrence": "daily",
+      "learningGoalMinutes": 60,
+      "startDate": "2026-10-20",
+      "templateId": "bf93237f-12a5-457e-bed1-a12d6957819d"
+    },
+    {
+      "id": "b54493e1-0e15-4b7f-a27c-b05885a06488",
+      "done": false,
+      "status": "pending",
+      "timerSeconds": 0,
+      "achievedMinutes": 0,
+      "text": "DS through python",
+      "category": "Learning",
+      "recurrence": "daily",
+      "learningGoalMinutes": 60,
+      "startDate": "2026-10-20",
+      "templateId": "cdc3c99b-4a3b-4990-93e8-d418bf6234b3"
+    },
+    {
+      "id": "9b041083-a43f-4ac0-a508-bc0e3bb59fee",
+      "done": false,
+      "status": "pending",
+      "timerSeconds": 0,
+      "achievedMinutes": 0,
+      "text": "DB & Apex",
+      "category": "Learning",
+      "recurrence": "daily",
+      "learningGoalMinutes": 60,
+      "startDate": "2026-10-20",
+      "templateId": "3e0e0f04-8b49-4dd2-bbd3-692432cb3ca8"
+    },
+    {
+      "id": "7767327c-a822-481b-9ea6-79185b5c02e3",
+      "done": false,
+      "status": "pending",
+      "timerSeconds": 0,
+      "achievedMinutes": 0,
+      "text": "Cypress and ptplsql",
+      "category": "Learning",
+      "recurrence": "daily",
+      "learningGoalMinutes": 30,
+      "startDate": "2026-10-20",
+      "templateId": "4191b14f-3cdf-41b3-938b-7b84049f10d0"
+    },
+    {
+      "id": "7e4010f7-c44f-40d1-95f7-c8e3bd68bdd9",
+      "done": false,
+      "status": "pending",
+      "timerSeconds": 0,
+      "achievedMinutes": 0,
+      "text": "Java",
+      "category": "Learning",
+      "recurrence": "daily",
+      "learningGoalMinutes": 90,
+      "startDate": "2026-10-20",
+      "templateId": "cb6abc4c-7d62-41e1-98f7-4a669bef1539"
+    },
+    {
+      "id": "ac98fca9-6df5-4763-b89e-c585ba9fe234",
+      "done": false,
+      "status": "pending",
+      "timerSeconds": 0,
+      "achievedMinutes": 0,
+      "text": "Meditation",
+      "category": "Learning",
+      "recurrence": "daily",
+      "learningGoalMinutes": 60,
+      "startDate": "2026-10-20",
+      "templateId": "02b570e6-0c98-4713-a8aa-27235b5a83d8"
+    }
+  ],
+  "expenseCategories": [
+    {
+      "id": "school",
+      "name": "School",
+      "monthlyBudget": 0,
+      "budgetPeriod": "halfYearly",
+      "budgetAmount": 95000
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "monthlyBudget": 0,
+      "budgetPeriod": "annually",
+      "budgetAmount": 100000
+    },
+    {
+      "id": "flat-maintenance",
+      "name": "Flat maintenance",
+      "monthlyBudget": 2500
+    },
+    {
+      "id": "investment",
+      "name": "Investment",
+      "monthlyBudget": 20000
+    },
+    {
+      "id": "grocery",
+      "name": "Grocery",
+      "monthlyBudget": 10000
+    },
+    {
+      "id": "vegetable",
+      "name": "Fruits & Vegetable",
+      "monthlyBudget": 3000
+    },
+    {
+      "id": "milk",
+      "name": "Milk",
+      "monthlyBudget": 1000
+    },
+    {
+      "id": "vehicle",
+      "name": "Bike / car maintenance & fuel",
+      "monthlyBudget": 2000
+    },
+    {
+      "id": "55be2237-ca21-4bc8-ae9b-12587a78104b",
+      "name": "phone and wifi",
+      "monthlyBudget": 1568
+    },
+    {
+      "id": "ada68181-b0b6-4fd0-94ea-4167bb102698",
+      "name": "Travel and Outing",
+      "monthlyBudget": 0,
+      "budgetPeriod": "quarterly",
+      "budgetAmount": 25000
+    },
+    {
+      "id": "c5fe6251-7572-4021-9535-e27d80d2c07c",
+      "name": "Dining",
+      "budgetPeriod": "monthly",
+      "monthlyBudget": 2000,
+      "budgetAmount": 0
+    },
+    {
+      "id": "89e501df-68fd-49a8-9b85-941cd244ac77",
+      "name": "Misc",
+      "budgetPeriod": "annually",
+      "monthlyBudget": 0,
+      "budgetAmount": 70000
+    },
+    {
+      "id": "5b9e1041-00cb-4112-8a56-6e4ed04f9fc6",
+      "name": "house help",
+      "budgetPeriod": "monthly",
+      "monthlyBudget": 2000,
+      "budgetAmount": 0
+    },
+    {
+      "id": "77a24f10-076a-453c-9035-53c7a8a98e39",
+      "name": "medical expense",
+      "budgetPeriod": "monthly",
+      "monthlyBudget": 500,
+      "budgetAmount": 0
+    },
+    {
+      "id": "c941db74-35e0-4ea1-b745-0fdd177405df",
+      "name": "grooming",
+      "budgetPeriod": "quarterly",
+      "monthlyBudget": 0,
+      "budgetAmount": 1500
+    }
+  ],
+  "sharePrices": {
+    "HINDCOPPER": 479.95,
+    "MANAPPURAM": 308.9,
+    "SAMMAANCAP": 132.94
+  }
+}

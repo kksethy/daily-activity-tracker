@@ -1,0 +1,97 @@
+{
+  "movies": [],
+  "learning": [],
+  "learningNotes": [],
+  "tasks": [
+    {
+      "id": "recurring-e94baa37-3de7-4f2a-9473-51e9a71a1699-2026-10-13",
+      "done": false,
+      "status": "pending",
+      "timerSeconds": 0,
+      "achievedMinutes": 0,
+      "text": "Python practice",
+      "category": "Learning",
+      "recurrence": "daily",
+      "learningGoalMinutes": 60,
+      "startDate": "2026-09-24",
+      "templateId": "e94baa37-3de7-4f2a-9473-51e9a71a1699"
+    },
+    {
+      "id": "recurring-3e8d9820-0848-4408-bf1f-8c71d2239fc4-2026-10-13",
+      "done": false,
+      "status": "pending",
+      "timerSeconds": 0,
+      "achievedMinutes": 0,
+      "text": "Oracle EBS",
+      "category": "Learning",
+      "recurrence": "daily",
+      "learningGoalMinutes": 60,
+      "startDate": "2026-09-24",
+      "templateId": "3e8d9820-0848-4408-bf1f-8c71d2239fc4"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "39591d97-cc4a-44c7-a78b-8828200628b5",
+      "category": "vehicle",
+      "subcategory": "",
+      "description": "2litre activa",
+      "note": "",
+      "paymentMode": "UPI",
+      "paymentName": "",
+      "amount": 221,
+      "date": "2026-10-13"
+    },
+    {
+      "id": "8dada736-84b9-4222-91f6-56d2140562d0",
+      "category": "vegetable",
+      "subcategory": "",
+      "description": "vegitable shop",
+      "note": "",
+      "paymentMode": "UPI",
+      "paymentName": "",
+      "amount": 56,
+      "date": "2026-10-13"
+    },
+    {
+      "id": "6c0da1cf-3a56-4ff3-bd35-d8b1d1d97c6b",
+      "category": "c5fe6251-7572-4021-9535-e27d80d2c07c",
+      "subcategory": "",
+      "description": "petis from bakery shop",
+      "note": "",
+      "paymentMode": "UPI",
+      "paymentName": "",
+      "amount": 80,
+      "date": "2026-10-13"
+    },
+    {
+      "id": "8f24539e-6bb6-4481-b64a-1307c161ac91",
+      "category": "milk",
+      "subcategory": "",
+      "description": "milk 7 curd",
+      "note": "",
+      "paymentMode": "UPI",
+      "paymentName": "",
+      "amount": 80,
+      "date": "2026-10-13"
+    },
+    {
+      "id": "26c7f494-71e4-4961-bf83-bdc8199082b6",
+      "category": "5b9e1041-00cb-4112-8a56-6e4ed04f9fc6",
+      "subcategory": "",
+      "description": "electric wire",
+      "note": "",
+      "paymentMode": "UPI",
+      "paymentName": "",
+      "amount": 40,
+      "date": "2026-10-13"
+    }
+  ],
+  "trades": [],
+  "notes": "",
+  "custom": [],
+  "habitDone": {},
+  "stopwatchSeconds": 0,
+  "focusHeads": [],
+  "updatedAt": "2026-10-19T13:48:23.844Z"
+}

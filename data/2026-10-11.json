@@ -1,0 +1,26 @@
+{
+  "movies": [],
+  "learning": [],
+  "learningNotes": [],
+  "tasks": [],
+  "expenses": [
+    {
+      "id": "93359b63-c208-4b9b-81bf-4ad795750b58",
+      "category": "c5fe6251-7572-4021-9535-e27d80d2c07c",
+      "subcategory": "",
+      "description": "",
+      "note": "",
+      "paymentMode": "Cash",
+      "paymentName": "",
+      "amount": 440,
+      "date": "2026-10-11"
+    }
+  ],
+  "trades": [],
+  "notes": "",
+  "custom": [],
+  "habitDone": {},
+  "stopwatchSeconds": 0,
+  "focusHeads": [],
+  "updatedAt": "2026-10-19T13:13:38.531Z"
+}

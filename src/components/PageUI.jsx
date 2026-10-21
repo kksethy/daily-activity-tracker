@@ -1,0 +1,4 @@
+export function Detail({ eyebrow, title, description, action, onAction, children }) { return <section className="detail"><div className="detail-heading detail-heading-compact"><div>{eyebrow && <p className="eyebrow">{eyebrow}</p>}<p>{description}</p></div>{action && <button onClick={onAction}>{action}</button>}</div>{children}</section>; }
+export function Progress({ value, color = 'blue' }) { return <span className={`progress ${color}`}><i style={{ width: `${value}%` }} /></span>; }
+export function Empty({ text, onClick }) { return <button className="empty" onClick={onClick}>+ {text}</button>; }
+export function SimpleAdd({ value, setValue, placeholder, onAdd }) { return <form className="add-form" onSubmit={(event) => { event.preventDefault(); onAdd(); }}><input value={value} onChange={(event) => setValue(event.target.value)} placeholder={placeholder}/><button>Add</button></form>; }

@@ -1,0 +1,178 @@
+0 verbose cli /opt/homebrew/Cellar/node/26.10.0_2/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.19.1
+2 info using node@v26.10.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/subhalaxmisethi/Documents/Projects/daily-activity-tracker/.npmrc
+5 silly config load:file:/Users/subhalaxmisethi/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm ci
+8 verbose argv "ci" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:/Users/subhalaxmisethi/Documents/Projects/daily-activity-tracker/.npm-cache/_logs/2026-10-13T19_49_55_983Z-
+10 verbose logfile /Users/subhalaxmisethi/Documents/Projects/daily-activity-tracker/.npm-cache/_logs/2026-10-13T19_49_55_983Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4395630592 maxSize:1098907648 maxEntrySize:549453824
+13 silly packumentCache heap:4395630592 maxSize:1098907648 maxEntrySize:549453824
+14 silly idealTree buildDeps
+15 silly reify moves {}
+16 silly audit bulk request {
+16 silly audit   '@oxc-project/types': [ '0.147.0' ],
+16 silly audit   '@rolldown/binding-android-arm-eabi': [ '1.2.6' ],
+16 silly audit   '@rolldown/binding-android-arm64': [ '1.2.6' ],
+16 silly audit   '@rolldown/binding-darwin-arm64': [ '1.2.6' ],
+16 silly audit   '@rolldown/binding-darwin-x64': [ '1.2.6' ],
+16 silly audit   '@rolldown/binding-freebsd-x64': [ '1.2.6' ],
+16 silly audit   '@rolldown/binding-linux-arm-gnueabihf': [ '1.2.6' ],
+16 silly audit   '@rolldown/binding-linux-arm64-gnu': [ '1.2.6' ],
+16 silly audit   '@rolldown/binding-linux-arm64-musl': [ '1.2.6' ],
+16 silly audit   '@rolldown/binding-linux-ppc64-gnu': [ '1.2.6' ],
+16 silly audit   '@rolldown/binding-linux-s390x-gnu': [ '1.2.6' ],
+16 silly audit   '@rolldown/binding-linux-x64-gnu': [ '1.2.6' ],
+16 silly audit   '@rolldown/binding-linux-x64-musl': [ '1.2.6' ],
+16 silly audit   '@rolldown/binding-openharmony-arm64': [ '1.2.6' ],
+16 silly audit   '@rolldown/binding-win32-arm64-msvc': [ '1.2.6' ],
+16 silly audit   '@rolldown/binding-win32-x64-msvc': [ '1.2.6' ],
+16 silly audit   '@rolldown/pluginutils': [ '1.0.1' ],
+16 silly audit   '@vitejs/plugin-react': [ '6.1.0' ],
+16 silly audit   'detect-libc': [ '2.1.2' ],
+16 silly audit   fdir: [ '6.5.0' ],
+16 silly audit   fsevents: [ '2.3.3' ],
+16 silly audit   lightningcss: [ '1.33.0' ],
+16 silly audit   'lightningcss-android-arm64': [ '1.33.0' ],
+16 silly audit   'lightningcss-darwin-arm64': [ '1.33.0' ],
+16 silly audit   'lightningcss-darwin-x64': [ '1.33.0' ],
+16 silly audit   'lightningcss-freebsd-x64': [ '1.33.0' ],
+16 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.33.0' ],
+16 silly audit   'lightningcss-linux-arm64-gnu': [ '1.33.0' ],
+16 silly audit   'lightningcss-linux-arm64-musl': [ '1.33.0' ],
+16 silly audit   'lightningcss-linux-x64-gnu': [ '1.33.0' ],
+16 silly audit   'lightningcss-linux-x64-musl': [ '1.33.0' ],
+16 silly audit   'lightningcss-win32-arm64-msvc': [ '1.33.0' ],
+16 silly audit   'lightningcss-win32-x64-msvc': [ '1.33.0' ],
+16 silly audit   nanoid: [ '3.3.18' ],
+16 silly audit   picocolors: [ '1.1.1' ],
+16 silly audit   picomatch: [ '4.0.7' ],
+16 silly audit   postcss: [ '8.5.26' ],
+16 silly audit   react: [ '19.2.8' ],
+16 silly audit   'react-dom': [ '19.2.8' ],
+16 silly audit   rolldown: [ '1.2.6' ],
+16 silly audit   scheduler: [ '0.27.0' ],
+16 silly audit   'source-map-js': [ '1.2.1' ],
+16 silly audit   tinyglobby: [ '0.2.17' ],
+16 silly audit   vite: [ '8.2.2' ]
+16 silly audit }
+17 http cache vite@https://registry.npmjs.org/vite/-/vite-8.2.2.tgz 0ms (cache hit)
+18 http cache tinyglobby@https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.17.tgz 0ms (cache hit)
+19 http cache source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz 0ms (cache hit)
+20 http cache scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz 0ms (cache hit)
+21 http cache rolldown@https://registry.npmjs.org/rolldown/-/rolldown-1.2.6.tgz 0ms (cache hit)
+22 http cache react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.8.tgz 0ms (cache hit)
+23 http cache react@https://registry.npmjs.org/react/-/react-19.2.8.tgz 0ms (cache hit)
+24 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.26.tgz 0ms (cache hit)
+25 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.7.tgz 0ms (cache hit)
+26 http cache picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz 0ms (cache hit)
+27 http cache nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.18.tgz 0ms (cache hit)
+28 http cache lightningcss@https://registry.npmjs.org/lightningcss/-/lightningcss-1.33.0.tgz 0ms (cache hit)
+29 http cache fsevents@https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz 0ms (cache hit)
+30 http cache fdir@https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz 0ms (cache hit)
+31 http cache detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 0ms (cache hit)
+32 http cache @rolldown/pluginutils@https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz 0ms (cache hit)
+33 http cache @vitejs/plugin-react@https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-6.1.0.tgz 0ms (cache hit)
+34 http cache @oxc-project/types@https://registry.npmjs.org/@oxc-project/types/-/types-0.147.0.tgz 0ms (cache hit)
+35 http cache @rolldown/binding-darwin-arm64@https://registry.npmjs.org/@rolldown/binding-darwin-arm64/-/binding-darwin-arm64-1.2.6.tgz 0ms (cache hit)
+36 http cache lightningcss-darwin-arm64@https://registry.npmjs.org/lightningcss-darwin-arm64/-/lightningcss-darwin-arm64-1.33.0.tgz 0ms (cache hit)
+37 silly tarball no local data for vite@https://registry.npmjs.org/vite/-/vite-8.2.2.tgz. Extracting by manifest.
+38 silly tarball no local data for tinyglobby@https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.17.tgz. Extracting by manifest.
+39 silly tarball no local data for source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz. Extracting by manifest.
+40 silly tarball no local data for scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz. Extracting by manifest.
+41 silly tarball no local data for rolldown@https://registry.npmjs.org/rolldown/-/rolldown-1.2.6.tgz. Extracting by manifest.
+42 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.8.tgz. Extracting by manifest.
+43 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-19.2.8.tgz. Extracting by manifest.
+44 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.26.tgz. Extracting by manifest.
+45 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.7.tgz. Extracting by manifest.
+46 silly tarball no local data for picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz. Extracting by manifest.
+47 silly tarball no local data for nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.18.tgz. Extracting by manifest.
+48 silly tarball no local data for lightningcss@https://registry.npmjs.org/lightningcss/-/lightningcss-1.33.0.tgz. Extracting by manifest.
+49 silly tarball no local data for fsevents@https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz. Extracting by manifest.
+50 silly tarball no local data for fdir@https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz. Extracting by manifest.
+51 silly tarball no local data for detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz. Extracting by manifest.
+52 silly tarball no local data for @rolldown/pluginutils@https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz. Extracting by manifest.
+53 silly tarball no local data for @vitejs/plugin-react@https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-6.1.0.tgz. Extracting by manifest.
+54 silly tarball no local data for @oxc-project/types@https://registry.npmjs.org/@oxc-project/types/-/types-0.147.0.tgz. Extracting by manifest.
+55 silly tarball no local data for @rolldown/binding-darwin-arm64@https://registry.npmjs.org/@rolldown/binding-darwin-arm64/-/binding-darwin-arm64-1.2.6.tgz. Extracting by manifest.
+56 silly tarball no local data for lightningcss-darwin-arm64@https://registry.npmjs.org/lightningcss-darwin-arm64/-/lightningcss-darwin-arm64-1.33.0.tgz. Extracting by manifest.
+57 http fetch GET 200 https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.17.tgz 68ms (cache miss)
+58 http fetch GET 200 https://registry.npmjs.org/react/-/react-19.2.8.tgz 84ms (cache miss)
+59 http fetch GET 200 https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz 102ms (cache miss)
+60 http fetch GET 200 https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz 101ms (cache miss)
+61 http fetch GET 200 https://registry.npmjs.org/nanoid/-/nanoid-3.3.18.tgz 104ms (cache miss)
+62 http fetch GET 200 https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz 126ms (cache miss)
+63 http fetch GET 200 https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 126ms (cache miss)
+64 http fetch GET 200 https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz 128ms (cache miss)
+65 http fetch GET 200 https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz 137ms (cache miss)
+66 http fetch GET 200 https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz 136ms (cache miss)
+67 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-4.0.7.tgz 138ms (cache miss)
+68 http fetch GET 200 https://registry.npmjs.org/postcss/-/postcss-8.5.26.tgz 141ms (cache miss)
+69 http fetch GET 200 https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-6.1.0.tgz 149ms (cache miss)
+70 http fetch GET 200 https://registry.npmjs.org/@oxc-project/types/-/types-0.147.0.tgz 152ms (cache miss)
+71 http fetch GET 200 https://registry.npmjs.org/lightningcss/-/lightningcss-1.33.0.tgz 153ms (cache miss)
+72 http fetch GET 200 https://registry.npmjs.org/rolldown/-/rolldown-1.2.6.tgz 182ms (cache miss)
+73 http fetch GET 200 https://registry.npmjs.org/npm 229ms
+74 http fetch GET 200 https://registry.npmjs.org/vite/-/vite-8.2.2.tgz 241ms (cache miss)
+75 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 305ms
+76 silly audit report {
+76 silly audit report   'source-map-js': [
+76 silly audit report     {
+76 silly audit report       id: 1241209,
+76 silly audit report       url: 'https://github.com/advisories/GHSA-68fv-2mgg-jv7q',
+76 silly audit report       title: 'source-map-js allows event-loop denial of service through indexed source-map section offsets',
+76 silly audit report       severity: 'high',
+76 silly audit report       vulnerable_versions: '>=1.0.0 <1.2.2',
+76 silly audit report       cwe: [Array],
+76 silly audit report       cvss: [Object]
+76 silly audit report     }
+76 silly audit report   ]
+76 silly audit report }
+77 silly packumentCache corgi:https://registry.npmjs.org/source-map-js cache-miss
+78 http fetch GET 200 https://registry.npmjs.org/react-dom/-/react-dom-19.2.8.tgz 324ms (cache miss)
+79 http fetch GET 200 https://registry.npmjs.org/source-map-js 34ms (cache miss)
+80 silly packumentCache corgi:https://registry.npmjs.org/source-map-js set size:undefined disposed:false
+81 silly packumentCache corgi:https://registry.npmjs.org/postcss cache-miss
+82 http fetch GET 200 https://registry.npmjs.org/postcss 98ms (cache miss)
+83 silly packumentCache corgi:https://registry.npmjs.org/postcss set size:undefined disposed:false
+84 http fetch GET 200 https://registry.npmjs.org/lightningcss-darwin-arm64/-/lightningcss-darwin-arm64-1.33.0.tgz 653ms (cache miss)
+85 http fetch GET 200 https://registry.npmjs.org/@rolldown/binding-darwin-arm64/-/binding-darwin-arm64-1.2.6.tgz 691ms (cache miss)
+86 silly ADD node_modules/vite
+87 silly ADD node_modules/tinyglobby
+88 silly ADD node_modules/source-map-js
+89 silly ADD node_modules/scheduler
+90 silly ADD node_modules/rolldown
+91 silly ADD node_modules/react-dom
+92 silly ADD node_modules/react
+93 silly ADD node_modules/postcss
+94 silly ADD node_modules/picomatch
+95 silly ADD node_modules/picocolors
+96 silly ADD node_modules/nanoid
+97 silly ADD node_modules/lightningcss-darwin-arm64
+98 silly ADD node_modules/lightningcss
+99 silly ADD node_modules/fsevents
+100 silly ADD node_modules/fdir
+101 silly ADD node_modules/detect-libc
+102 silly ADD node_modules/@vitejs/plugin-react
+103 silly ADD node_modules/@rolldown/pluginutils
+104 silly ADD node_modules/@rolldown/binding-darwin-arm64
+105 silly ADD node_modules/@oxc-project/types
+106 warn install-scripts 1 package has install scripts not yet covered by allowScripts:
+106 warn install-scripts   fsevents@2.3.3 (install: (install scripts present))
+106 warn install-scripts
+106 warn install-scripts Run `npm install-scripts ls` to review, or `npm install-scripts approve <pkg>` to allow.
+107 verbose cwd /Users/subhalaxmisethi/Documents/Projects/daily-activity-tracker
+108 verbose os Darwin 24.5.0
+109 verbose node v26.10.0
+110 verbose npm  v11.19.1
+111 notice
+111 notice New major version of npm available! 11.19.1 -> 12.2.0
+111 notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+111 notice To update run: npm install -g npm@12.2.0
+111 notice  { force: true, Symbol(proc-log.meta): true }
+112 verbose exit 0
+113 info ok

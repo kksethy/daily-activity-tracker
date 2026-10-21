@@ -1,0 +1,32 @@
+{
+  "movies": [
+    {
+      "id": "64ae5078-b110-4e6c-a937-95696076b08c",
+      "text": "Everwood Episode 2"
+    }
+  ],
+  "learning": [],
+  "tasks": [
+    {
+      "id": "e50e6566-22eb-420b-8644-316cabaab5c7",
+      "text": "deploy Quant AI",
+      "done": false
+    }
+  ],
+  "notes": "",
+  "custom": [],
+  "habitDone": {
+    "518645d1-af38-40cb-9774-7f1a3b25d48f": false
+  },
+  "stopwatchSeconds": 2,
+  "focusHeads": [
+    {
+      "id": "507eda3f-8813-4d27-b17f-bda78e43743b",
+      "name": "Python",
+      "targetSeconds": 60,
+      "elapsedSeconds": 41
+    }
+  ],
+  "updatedAt": "2026-09-02T20:43:29.473Z",
+  "timerSeconds": 1
+}

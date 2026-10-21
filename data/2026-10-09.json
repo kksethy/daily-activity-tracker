@@ -1,0 +1,53 @@
+{
+  "movies": [],
+  "learning": [],
+  "learningNotes": [],
+  "tasks": [
+    {
+      "id": "recurring-e94baa37-3de7-4f2a-9473-51e9a71a1699-2026-10-09",
+      "done": false,
+      "status": "pending",
+      "timerSeconds": 0,
+      "achievedMinutes": 0,
+      "text": "Python practice",
+      "category": "Learning",
+      "recurrence": "daily",
+      "learningGoalMinutes": 60,
+      "startDate": "2026-09-24",
+      "templateId": "e94baa37-3de7-4f2a-9473-51e9a71a1699"
+    },
+    {
+      "id": "recurring-3e8d9820-0848-4408-bf1f-8c71d2239fc4-2026-10-09",
+      "done": false,
+      "status": "pending",
+      "timerSeconds": 0,
+      "achievedMinutes": 0,
+      "text": "Oracle EBS",
+      "category": "Learning",
+      "recurrence": "daily",
+      "learningGoalMinutes": 60,
+      "startDate": "2026-09-24",
+      "templateId": "3e8d9820-0848-4408-bf1f-8c71d2239fc4"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "de3a59e3-3d45-4ba9-b695-88ab3d1d0513",
+      "category": "vegetable",
+      "subcategory": "",
+      "description": "banana",
+      "note": "",
+      "paymentMode": "Cash",
+      "paymentName": "",
+      "amount": 60,
+      "date": "2026-10-09"
+    }
+  ],
+  "trades": [],
+  "notes": "",
+  "custom": [],
+  "habitDone": {},
+  "stopwatchSeconds": 0,
+  "focusHeads": [],
+  "updatedAt": "2026-10-19T13:31:16.054Z"
+}

@@ -1,0 +1,64 @@
+{
+  "movies": [],
+  "learning": [],
+  "learningNotes": [],
+  "tasks": [
+    {
+      "id": "recurring-e94baa37-3de7-4f2a-9473-51e9a71a1699-2026-10-04",
+      "done": false,
+      "status": "pending",
+      "timerSeconds": 0,
+      "achievedMinutes": 0,
+      "text": "Python practice",
+      "category": "Learning",
+      "recurrence": "daily",
+      "learningGoalMinutes": 60,
+      "startDate": "2026-09-24",
+      "templateId": "e94baa37-3de7-4f2a-9473-51e9a71a1699"
+    },
+    {
+      "id": "recurring-3e8d9820-0848-4408-bf1f-8c71d2239fc4-2026-10-04",
+      "done": false,
+      "status": "pending",
+      "timerSeconds": 0,
+      "achievedMinutes": 0,
+      "text": "Oracle EBS",
+      "category": "Learning",
+      "recurrence": "daily",
+      "learningGoalMinutes": 60,
+      "startDate": "2026-09-24",
+      "templateId": "3e8d9820-0848-4408-bf1f-8c71d2239fc4"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "6d4f37e3-6785-4d08-b7c6-e029ed79a1e3",
+      "category": "vegetable",
+      "subcategory": "",
+      "description": "tamato from thela",
+      "note": "",
+      "paymentMode": "Cash",
+      "paymentName": "",
+      "amount": 30,
+      "date": "2026-10-04"
+    },
+    {
+      "id": "29601ca2-16a3-4af9-bcf8-381b57b3b036",
+      "category": "c5fe6251-7572-4021-9535-e27d80d2c07c",
+      "subcategory": "",
+      "description": "breakfast from tiffin shop",
+      "note": "",
+      "paymentMode": "Cash",
+      "paymentName": "",
+      "amount": 100,
+      "date": "2026-10-04"
+    }
+  ],
+  "trades": [],
+  "notes": "",
+  "custom": [],
+  "habitDone": {},
+  "stopwatchSeconds": 0,
+  "focusHeads": [],
+  "updatedAt": "2026-10-19T13:45:36.748Z"
+}

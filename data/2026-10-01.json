@@ -1,0 +1,84 @@
+{
+  "movies": [],
+  "learning": [],
+  "learningNotes": [],
+  "tasks": [
+    {
+      "id": "recurring-e94baa37-3de7-4f2a-9473-51e9a71a1699-2026-10-01",
+      "done": false,
+      "status": "pending",
+      "timerSeconds": 0,
+      "achievedMinutes": 0,
+      "text": "Python practice",
+      "category": "Learning",
+      "recurrence": "daily",
+      "learningGoalMinutes": 60,
+      "startDate": "2026-09-24",
+      "templateId": "e94baa37-3de7-4f2a-9473-51e9a71a1699"
+    },
+    {
+      "id": "recurring-3e8d9820-0848-4408-bf1f-8c71d2239fc4-2026-10-01",
+      "done": false,
+      "status": "pending",
+      "timerSeconds": 0,
+      "achievedMinutes": 0,
+      "text": "Oracle EBS",
+      "category": "Learning",
+      "recurrence": "daily",
+      "learningGoalMinutes": 60,
+      "startDate": "2026-09-24",
+      "templateId": "3e8d9820-0848-4408-bf1f-8c71d2239fc4"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "1fe7bea3-eeb8-468b-9207-c54623e083b3",
+      "category": "milk",
+      "subcategory": "",
+      "note": "",
+      "paymentMode": "UPI",
+      "paymentName": "cred",
+      "amount": 52,
+      "date": "2026-10-01"
+    },
+    {
+      "id": "d71f74e2-fc36-49b6-972f-249efef27773",
+      "category": "vegetable",
+      "subcategory": "",
+      "description": "",
+      "note": "Star Bazaar",
+      "paymentMode": "Credit Card",
+      "paymentName": "Axis Bank CC",
+      "amount": 817,
+      "date": "2026-10-01"
+    },
+    {
+      "id": "2f0e7c0d-daa3-4835-bd02-c08684e1f8bd",
+      "category": "grocery",
+      "subcategory": "",
+      "description": "",
+      "note": "Star Bazaar",
+      "paymentMode": "Credit Card",
+      "paymentName": "Axis Bank CC",
+      "amount": 5911,
+      "date": "2026-10-01"
+    },
+    {
+      "id": "bd764b53-2bff-421e-826b-f672ed0a5179",
+      "category": "flat-maintenance",
+      "subcategory": "",
+      "description": "Oct2026 maintenance",
+      "note": "",
+      "paymentMode": "UPI",
+      "paymentName": "pay",
+      "amount": 2000,
+      "date": "2026-10-01"
+    }
+  ],
+  "notes": "",
+  "custom": [],
+  "habitDone": {},
+  "stopwatchSeconds": 0,
+  "focusHeads": [],
+  "updatedAt": "2026-10-01T05:51:30.972Z"
+}
